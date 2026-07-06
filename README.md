@@ -14,18 +14,15 @@ A micro-benchmark suite designed to evaluate the CPU performance gains of bypass
 
 ## Results
 
-============================================================
---- FINAL AVERAGED RESULTS OVER 10 RUNS (10000 iterations/run) ---
-============================================================
-Method A: Core                      : 8.3187 seconds
-Method B: Standard ORM              : 9.0759 seconds
-Method C: ORM (populate_existing)   : 8.9205 seconds
-Method D: ORM (no populate override): 8.6240 seconds
-------------------------------------------------------------
-Core Gain over Standard ORM         : 8.34% faster
-Core Gain over Populate Existing    : 6.75% faster
-============================================================
+| Method                              | Time (seconds) |
+|--------------------------------------|-----------------|
+| A: Core                              | 8.3187          |
+| B: Standard ORM                      | 9.0759          |
+| C: ORM (populate_existing)           | 8.9205          |
+| D: ORM (no populate override)        | 8.6240          |
 
+**Core Gain over Standard ORM:** 8.34% faster
+**Core Gain over Populate Existing:** 6.75% faster
 
 ## Getting Started
 
